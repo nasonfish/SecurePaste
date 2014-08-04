@@ -1,0 +1,79 @@
+/*'shellpart.user',
+2: 'shellpart.at',
+3: 'shellpart.host',
+4: 'shellpart.colon',
+5: 'shellpart.directory',
+6: 'shellpart.prompt'*/
+
+/*.shellpart{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}*/
+
+pre .shellpart.user{
+    color: #839496;
+}
+
+pre .shellpart.at{
+    color: #2aa198;
+}
+
+pre .shellpart.host{
+    color: #586e75;
+}
+
+pre .shellpart.colon{
+    color: #2aa198;
+}
+
+pre .shellpart.directory{
+    color: #839496;
+}
+
+pre .shellpart.prompt{
+    color: #b58900;
+}
+
+pre .command{
+    color: #94a8aa;
+}
+
+pre .subcommand{
+    color: #a3d9fb; /* blue */
+}
+
+.red{
+    color: red;
+}
+
+pre .superuser{
+    color: #b58900;
+}
+
+pre .package-manager.command{
+    color: #268bd2;
+}
+
+pre .package-manager.subcommand{
+    color: #d33682;
+}
+
+pre .package-manager.package{
+    font-weight: bold;
+}
+
+pre .flag{
+    color: #d33682;
+}
+
+pre .command{
+    color: #268bd2;
+}
+
+pre .path{
+    color: #859900;
+}

@@ -1,0 +1,45 @@
+body{
+    background: url('/brickwall/brickwall.png');
+    font-family: 'Arapey', serif;
+}
+
+#make{
+    background: #002b36;
+    word-wrap: break-word;
+    padding: 10px;
+    color: #839496; /* base0 */
+    font-size: 14px;
+    width: 100%;
+    height: 40em;
+}
+
+textarea{
+    font-family: monospace;
+}
+
+.margined{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 2%;
+}
+
+.title, .subtitle, .header{
+    display: inline;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Unkempt', cursive;
+}
+
+.title{
+    cursor: pointer;
+}
+
+.body{
+    margin-bottom: 20px;
+}
+
+.normal{
+    text-decoration: none;
+    color: #000000;
+}
